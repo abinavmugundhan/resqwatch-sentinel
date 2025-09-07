@@ -47,6 +47,49 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Emergency Response Risk Colors
+        risk: {
+          safe: {
+            DEFAULT: "hsl(var(--risk-safe))",
+            foreground: "hsl(var(--risk-safe-foreground))",
+          },
+          low: {
+            DEFAULT: "hsl(var(--risk-low))",
+            foreground: "hsl(var(--risk-low-foreground))",
+          },
+          moderate: {
+            DEFAULT: "hsl(var(--risk-moderate))",
+            foreground: "hsl(var(--risk-moderate-foreground))",
+          },
+          high: {
+            DEFAULT: "hsl(var(--risk-high))",
+            foreground: "hsl(var(--risk-high-foreground))",
+          },
+          critical: {
+            DEFAULT: "hsl(var(--risk-critical))",
+            foreground: "hsl(var(--risk-critical-foreground))",
+          },
+        },
+        // Emergency UI Elements
+        emergency: {
+          header: "hsl(var(--emergency-header))",
+          "header-foreground": "hsl(var(--emergency-header-foreground))",
+        },
+        alert: {
+          background: "hsl(var(--alert-background))",
+          border: "hsl(var(--alert-border))",
+          foreground: "hsl(var(--alert-foreground))",
+        },
+        // Dashboard & Metrics
+        dashboard: {
+          panel: "hsl(var(--dashboard-panel))",
+          border: "hsl(var(--dashboard-border))",
+        },
+        metric: {
+          positive: "hsl(var(--metric-positive))",
+          warning: "hsl(var(--metric-warning))",
+          danger: "hsl(var(--metric-danger))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
