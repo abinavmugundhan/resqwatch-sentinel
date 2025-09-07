@@ -13,7 +13,7 @@ import {
   Battery
 } from 'lucide-react';
 
-import EmergencyMap from '../Map/EmergencyMap';
+import GoogleEmergencyMap from '../Map/GoogleEmergencyMap';
 import MetricsPanel from './MetricsPanel';
 import CommunityReports from '../Community/CommunityReports';
 import SafetyAreas from '../Safety/SafetyAreas';
@@ -174,7 +174,7 @@ const Dashboard: React.FC = () => {
 
         {/* Center - Map */}
         <div className="flex-1 relative">
-          <EmergencyMap onLocationUpdate={handleLocationUpdate} />
+          <GoogleEmergencyMap onLocationUpdate={handleLocationUpdate} />
           
           {/* Mobile Metrics Panel (Collapsible) */}
           <div className="lg:hidden absolute top-4 right-4 z-10">
